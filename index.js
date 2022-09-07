@@ -7,7 +7,7 @@ app.get("/",(req,res)=>{
 })
 
 var server=app.listen(5000,function(){
-    console.log("Server Started on port 5000")
+    //console.log("Server Started on port 5000")
 })
 
 module.exports = server
